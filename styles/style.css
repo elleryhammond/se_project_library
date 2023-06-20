@@ -21,6 +21,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .nav__logo {
@@ -40,6 +41,10 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
 }
 
 .header__title {
@@ -79,6 +84,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 .header__address {
@@ -154,6 +163,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -247,7 +260,7 @@
   color: #ffffff;
 }
 
-.staff__booklist {
+.staff__cards {
   margin: auto;
   max-width: 760px;
   margin-top: 68px;
